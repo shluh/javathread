@@ -15,11 +15,9 @@ public class SimpleThreads {
 	                "Little lambs eat ivy",
 	                "A kid will eat ivy too"};
 			try {
-                for (int i = 0;
-                     i < importantInfo.length;
-                     i++) {
+                for (int i = 0; i < importantInfo.length; i++) {
                     // Pause for 4 seconds
-                    Thread.sleep(8000);
+                    Thread.sleep(4000);
                     // Print a message
                     threadMessage(importantInfo[i]);
                 }
@@ -29,8 +27,7 @@ public class SimpleThreads {
 		}
 	}
 	
-	public static void main(String args[])
-	        throws InterruptedException {
+	public static void main(String args[]) throws InterruptedException {
 
 	        // Delay, in milliseconds before
 	        // we interrupt MessageLoop
