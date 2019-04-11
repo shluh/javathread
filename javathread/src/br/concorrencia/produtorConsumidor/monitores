@@ -5,3 +5,13 @@ https://brizeno.wordpress.com/2011/09/23/praticando-concorrencia-em-java/
 Segundo [1] monitor é uma técnica utilizada para sincronizar tarefas que compartilham um recurso. ou seja, o monitor oferece uma interface para permitir a manipulação de um recurso compartilhado. Para tanto utiliza uma trava de exclusão mútua, que consiste de variáveis de controle e regras para liberar ou travar o recurso.
 
 De maneira prática, o monitor basicamente é uma classe que controla o recurso, assim quando for preciso requisitá-lo devemos enviar o pedido para ela.
+
+
+
+
+exemplos
+https://dzone.com/articles/the-evolution-of-producer-consumer-problem-in-java
+
+
+Artigo Java Magazine 69 - Aplicações concorrentes em Java
+https://www.devmedia.com.br/artigo-java-magazine-69-aplicacoes-concorrentes-em-java/13172

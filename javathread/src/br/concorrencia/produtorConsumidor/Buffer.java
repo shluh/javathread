@@ -2,7 +2,7 @@ package br.concorrencia.produtorConsumidor;
 
 public class Buffer {
 	private int conteudo;
-    private boolean disponivel;
+    private boolean disponivel;//conteudo disponivel no buffer
     
     public synchronized void set(int idProdutor, int valor) {
         while (disponivel == true) {
@@ -23,7 +23,7 @@ public class Buffer {
         while (disponivel == false) {
             try {
                 System.out.println("Consumidor #" + idConsumidor
-                        + " esperado...");
+                        + " esperando...");
                 wait();
             } catch (Exception e) {
                 e.printStackTrace();
